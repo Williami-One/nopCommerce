@@ -26,6 +26,9 @@ set @resources='
    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.UseResponseCompression.Hint">
     <Value>Enable to compress response (gzip by default). You can disable it if you have an active IIS Dynamic Compression Module configured at the server level.</Value>
   </LocaleResource>   
+  <LocaleResource Name="Admin.System.Warnings.URL.Reserved">
+    <Value>The entered text exists or is not slug conform and changed in {0}</Value>
+  </LocaleResource>
 </Language>
 '
 
